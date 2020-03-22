@@ -21,6 +21,7 @@ while True:
     # Display
     cv2.imshow('img', img)
     # Stop if escape key is pressed
+    #press Q to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 # Release the VideoCapture object
