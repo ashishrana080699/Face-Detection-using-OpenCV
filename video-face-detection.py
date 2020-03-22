@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
- #To use a video file as input 
+#To give video as input 
 #cap = cv2.VideoCapture('video.mp4')
 
 while True:
